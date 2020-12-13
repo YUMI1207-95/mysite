@@ -1,0 +1,130 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+}
+h1, p, h3{
+    margin: 0;
+}
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+h3 {
+    text-align: center;
+    padding: 50px;
+}
+header {
+    height: 65px;
+    
+}
+.header-logo {
+    float: left;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 65px;
+}
+.header-list ul {
+    list-style: none;
+    float: right;
+    font-weight: bold;
+}
+.header-list li {
+    font-size: 16px;
+    float: left;
+    margin: 0 15px;
+}
+.header-icon {
+    color: black;
+    float: right;
+    font-size: 25px;
+    padding: 8px 0;
+    display: none;
+  }
+.title {
+    background-image: url(../img/main-vsual-nontitle.png);
+    background-size: cover;
+    text-align: center;
+    padding: 120px 0;
+}
+.title p {
+    font-size: 16px;
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+.about img {
+    display: block;
+    float: left;
+    width: 45%;
+}
+.about p {
+    float: right;
+    width: 50%;
+    font-size: 16px;
+}
+.course {
+    clear: both;
+}
+.course {
+    margin-top: 400px;
+}
+.menu {
+    display: flex;
+}
+.box {
+    width: calc(100% / 3);
+    text-align: center;
+    
+}
+.box img {
+    display: inline-block;
+    width: 80%;
+}
+.box p {
+    font-size: 16px;
+}
+.contact {
+    margin: 0 auto;
+    width: 450px;
+}
+input {
+    display: block;
+    
+}
+.contact {
+    margin: 50px auto 100px;
+}
+.contact p {
+    font-size: 12px;
+    text-align: center;
+}
+.mail {
+    width: 450px;
+    height: 40px;
+    border-radius: 50px;
+    margin: 0 auto;
+    border: 1px solid lightgray;
+}
+.btn {
+    width: 280px;
+    height: 45px;
+    border: none;
+    margin: 15px auto 0;
+    background-color: #EC6D64;
+    color: white;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 16px;
+}
+.btn:hover {
+    opacity: 0.8;
+}
+footer {
+    height: 65px;
+    border-top: lightgray 1px solid;
+}
+footer > p {
+    text-align: right;
+    font-size: 12px;
+    padding-top: 10px;
+}

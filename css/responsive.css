@@ -1,0 +1,77 @@
+@media all and (max-width: 1000px) {
+    .container {
+        width: 80%;
+    }
+    
+    .title h1 {
+        font-size: 28px;
+    }
+    .course {
+        margin-top: 200px;
+    }
+    .box img {
+        width: 90%;
+    }
+}
+@media all and (max-width: 670px) {
+    .container {
+        width: 90%;
+        
+    }
+    header {
+        height: 35px;
+    }
+    .header-logo {
+        font-size: 14px;
+        line-height: 35px;
+    }
+    .header-icon {
+        display: block;
+    }
+    .header-list {
+        display: none;
+    }
+    
+    .title h1 {
+        font-size: 24px;
+    }
+    .title p {
+        font-size: 12px;
+    }
+    h3 {
+        font-size: 18px;
+    }
+    .about p {
+        font-size: 12px;
+    }
+    .menu {
+        display: block;
+    }
+    .box {
+        width: 100%;
+    }
+    .box p {
+        font-size: 12px;
+        
+    }
+    .contact {
+        margin: 0 auto;
+        width: 100%;
+    }
+    
+    .mail {
+        width: 300px;
+    }
+    .btn {
+        width: 300px;
+        margin-bottom: 10px;
+    }
+    footer p {
+        font-size: 10px;
+        text-align: center;
+        padding-top: 18px;
+    }
+    
+    
+    
+}
